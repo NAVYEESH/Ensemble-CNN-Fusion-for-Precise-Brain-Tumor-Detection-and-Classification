@@ -6,11 +6,8 @@ This repository contains the source code and models for a deep learning-based ap
 - [Project Overview](#project-overview)
 - [Models Used](#models-used)
 - [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## Project Overview
 
@@ -48,41 +45,6 @@ The dataset used for this project is a combination of publicly available MRI bra
 - **No Tumor**: 2000 images
 
 Images are resized to 150x150 pixels, pre-processed, and normalized for training.
-
-## Installation
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/your-repo/brain-tumor-detection.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd brain-tumor-detection
-    ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-1. **Training the Model**:
-   To train the model, run:
-   ```bash
-   python train.py
-   ```
-
-2. **Evaluating the Model**:
-   After training, evaluate the model using:
-   ```bash
-   python evaluate.py
-   ```
-
-3. **Inference**:
-   For prediction on new MRI scans:
-   ```bash
-   python predict.py --image path_to_image
-   ```
 
 ## Results
 
